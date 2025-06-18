@@ -1,0 +1,6 @@
+git init  (remove init rm -rf .git)
+git add (file name)
+git commit -m "commit description"
+git branch -M (branch name)
+git remote add origin (GitHub location) 
+git push -u origin (branch name)
