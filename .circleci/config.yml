@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  hello:
+  say-hello:
     docker:
       - image: cimg/base:current
     steps:
@@ -13,4 +13,4 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - hello
+      - say-hello
