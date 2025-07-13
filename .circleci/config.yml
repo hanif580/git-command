@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "hello"
+          name: "say-hello"
           command: "echo Hello, World!"
 
 workflows:
